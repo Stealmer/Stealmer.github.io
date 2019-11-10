@@ -1,0 +1,260 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu .menu_link:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.menu .menu_logo {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu .menu_logo:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s all;
+}
+
+
+
+.welcome {
+    min-height: 800px;
+    background: url(../img/main_bg.jpg) center center/cover no-repeat; 
+    padding: 200px 0 50px 0;
+ }
+
+.welcome .welcome_header {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+.welcome .welcome_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-align: center;
+    margin-top: 430px;
+}
+
+.welcome .welcome_descr {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+    line-height: 1.333;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+.about {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
+.about .about_header {
+    margin-top: 40px;
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about .about_block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    
+}
+
+.about .about_block .about_text {
+    width: 600px;
+    padding: 0px 20px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+
+
+
+.exp {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
+.exp .exp_header {
+    margin-top: 40px;
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.exp .exp_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    padding: 0 10px;
+    
+}
+
+.exp .exp_block .exp_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.exp .exp_block .exp_descr {
+    width: 365px;
+}
+
+.divider {
+    width: 200px;
+    height: 3px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.divider_w {
+    width: 200px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+.exp .exp_block .exp_descr .exp_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+
+.photo {
+    min-height: 500px;
+    padding: 50px 0;
+    background: url(../img/photo_bg.jpg) center center/cover space;
+}
+
+.photo .photo_header {
+    margin-top: 40px;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+
+.photo .photo_block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+
+.photo .photo_block .photo_img {
+    border: 1px solid black;
+}
+
+.education {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
+.education .education_header {
+    margin-top: 40px;
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.education .education_block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    
+}
+
+.education .education_block .education_text {
+    width: 600px;
+    padding: 0px 20px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+
+.education .education_block .education_img{
+    border: 2px solid black;
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
